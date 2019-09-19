@@ -23,8 +23,9 @@
         alert('链接成功');
     }
 
-    WC.onmessage=function(event){
-        img.src=event;
+    WC.onmessage=function(data){
+        alert(data);
+        img.src=data;
     }
 
     WC.onclose=function(event){
