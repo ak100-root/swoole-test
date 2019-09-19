@@ -15,23 +15,23 @@ eww
 
     function draw(){
         context.drawImage(video,0,0);
-        WC.send(canvas,toDataURL('image/jpeg',0,4));
+      //  WC.send(canvas,toDataURL('image/jpeg',0,4));
         setTimeout(draw,80);
     }
 
 
-    WC = new WebSocket('ws://121.199.4.90:9501/');
-
-    //链接状态
-    WC.onopen=function(event){
-        alert('链接成功');
-    }
-
-    WC.onmessage=function(event){
-        draw();
-    }
-
-    WC.onclose=function(event){
-        alert('链接关闭');
-    }
+//    WC = new WebSocket('ws://121.199.4.90:9501/');
+//
+//    //链接状态
+//    WC.onopen=function(event){
+//        alert('链接成功');
+//    }
+//
+//    WC.onmessage=function(event){
+//        draw();
+//    }
+//
+//    WC.onclose=function(event){
+//        alert('链接关闭');
+//    }
 </script>
