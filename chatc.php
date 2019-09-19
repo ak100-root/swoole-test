@@ -1,15 +1,10 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: 虎虎虎
- * Date: 2019-09-19
- * Time: 11:28
- */
-?>
-<html>
-<video src="m.mp4" width="800" id="video" autoplay="true" controls="true" height="400"></video>
-<canvas  width="800" id="canvas"></canvas>
 
+<html>
+<body>
+eww
+    <video src="m.mp4" width="800" id="video" autoplay="true" controls="true" height="400"></video>
+    <canvas  width="800" id="canvas"></canvas>
+</body>
 </html>
 
 <script>

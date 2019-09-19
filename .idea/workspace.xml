@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57e4506f-7892-463c-b537-49d73dee6670" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/live.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat.php" afterPath="$PROJECT_DIR$/chat.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chatc.php" afterPath="$PROJECT_DIR$/chatc.php" />
     </list>
     <ignored path="swoole-test.iws" />
@@ -64,11 +61,9 @@
       <file leaf-file-name="chatc.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chatc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0056710774">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="e#6#85#0#PHP" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.39508507">
+              <caret line="11" column="48" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="48" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -290,11 +285,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chatc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0056710774">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#85#0#PHP" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.39508507">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
