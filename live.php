@@ -8,15 +8,13 @@
 ?>
 <html>
     <body>
-    <canvas id="myCanvas" width="270" height="135"></canvas>
-
+    <img id="img" width="270" height="135">
     </body>
 
 </html>
 <script>
 
-    var canvas = document.getElementById('myCanvas');
-    var content = canvas.getContext('2d');
+   var img = document.getElementById('img');
     WC = new WebSocket('ws://121.199.4.90:9501/');
 
 
@@ -26,8 +24,7 @@
     }
 
     WC.onmessage=function(event){
-        console.log(event);
-        //content.drawImage(event, 0, 0, 270, 135);
+        img.src=event;
     }
 
     WC.onclose=function(event){
