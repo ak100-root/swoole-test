@@ -6,21 +6,19 @@
  * Time: 11:28
  */
 ?>
+<html>
+    <body>
+    <canvas id="myCanvas" width="270" height="135"></canvas>
 
+    </body>
+
+</html>
 <script>
-    var video = document.getElementById('video');
-    var canvas = document.getElementById('canvas');
+
+    var canvas = document.getElementById('myCanvas');
     var content = canvas.getContext('2d');
     WC = new WebSocket('ws://121.199.4.90:9501/');
 
-    function draw(){
-        context.drawImage(video,0,0);
-        WC.send(canvas,toDataURL('image/jpeg',0,4));
-        setTimeout(draw,80);
-    }
-
-
-    WC = new WebSocket('ws://121.199.4.90:9501/');
 
     //链接状态
     WC.onopen=function(event){
@@ -28,7 +26,8 @@
     }
 
     WC.onmessage=function(event){
-        draw();
+        console.log(event);
+        //content.drawImage(event, 0, 0, 270, 135);
     }
 
     WC.onclose=function(event){

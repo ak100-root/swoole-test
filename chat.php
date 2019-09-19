@@ -12,6 +12,5 @@ $server->on('message',function($server,$frame){
     foreach( $con as $fd){
         $server->push($fd,$frame->data);
     }
-
 });
 $server->start();
