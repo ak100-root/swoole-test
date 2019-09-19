@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57e4506f-7892-463c-b537-49d73dee6670" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/live.php" afterPath="$PROJECT_DIR$/live.php" />
-    </list>
+    <list default="true" id="57e4506f-7892-463c-b537-49d73dee6670" name="Default" comment="" />
     <ignored path="swoole-test.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -82,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/live.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.5689981">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
               <folding>
                 <element signature="e#6#85#0#PHP" expanded="true" />
               </folding>
@@ -303,7 +301,7 @@
     <entry file="file://$PROJECT_DIR$/live.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5689981">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
           <folding>
             <element signature="e#6#85#0#PHP" expanded="true" />
           </folding>
