@@ -1,6 +1,5 @@
 <?php
 $serv = new Swoole\Server('121.199.4.90', 9501);
-$serv->set(array('worker_num' => 4));
 $serv->on('connect', function ($serv, $fd){
     echo $fd."Client:Connect".PHP_EOL;
 });
