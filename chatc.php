@@ -2,7 +2,7 @@
 <html>
 <body>
 eww
-    <video src="m.mp4" width="800" id="video" autoplay="true" controls="true" height="400"></video>
+    <video src="m.mp4" width="800" id="video" autoplay="autoplay" height="400"></video>
     <canvas  width="800" id="canvas"></canvas>
 </body>
 </html>
