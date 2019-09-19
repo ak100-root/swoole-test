@@ -10,7 +10,5 @@ $serv->on('receive', function ($serv, $fd, $from_id, $data) {
 
     $serv->close($fd); // 注意：官方并不建议在这里关闭掉
 });
-$serv->on('close', function ($serv, $fd) {
-    echo "Client $fd : Close".PHP_EOL;
-});
+
 $serv->start();
