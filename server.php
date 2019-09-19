@@ -4,6 +4,7 @@ $serv->on('connect', function ($serv, $fd){
     echo "Client:Connect".PHP_EOL;
 });
 $serv->on('receive', function ($serv, $fd, $reactor_id, $data) {
+    var_dump($data);
     $serv->send($fd, 'Swoole: '.$data);
     $serv->close($fd);
 });
