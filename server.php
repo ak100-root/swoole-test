@@ -14,7 +14,7 @@ $serv->on('connect', function ($serv, $fd){
 $serv->on('receive', function ($serv, $fd, $from_id, $data) {
     echo $data; //打印 接收到的数据
 
-    $serv->send($fd, '默认设置：'.json_encode($serv->setting)); //发送字符串给客户端
+    $serv->send($fd, 'Default Setting：'.json_encode($serv->setting)); //发送字符串给客户端
 
     $serv->close($fd); // 注意：官方并不建议在这里关闭掉
 });
