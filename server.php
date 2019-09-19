@@ -14,8 +14,9 @@
 //*
 //0.0.0.0 表示同时监听 本机的本地IP地址  和 本机的外网IP地址【如设置为127.0.0.1 则只能内网访问 curl 本机内网IP:9501/ 或者 浏览器】
 $serv = new Swoole\Server('0.0.0.0', 9501);
-// $fd : 是一个自增数,TCP客户端连接的标识符，在Server实例中是唯一的，在多个进程内不会重复,是复用的，当连接关闭后fd会被新进入的连接复用
-//[如果业务中需要发送广播，需要用apc、redis、MySQL、memcache、Swoole\Table将fd的值保存起来。]
+
+// $fd : 是一个自增数,TCP客户端连接的标识符，在Server实例中是唯一的，在多个进程内不会重复,是复用的，
+//当连接关闭后fd会被新进入的连接复用[如果业务中需要发送广播，需要用apc、redis、MySQL、memcache、Swoole\Table将fd的值保存起来。]
 $serv->on('connect', function ($serv, $fd){
     echo $fd.":Client:Connect".PHP_EOL;
 });
@@ -23,6 +24,11 @@ $serv->on('receive', function ($serv, $fd, $from_id, $data) {
     echo $data; //打印 接收到的数据
 
     $serv->send($fd, 'Default Setting:'.json_encode($serv->setting)); //发送字符串给客户端
+    //客户端测试的结果 Default Setting：{"worker_num":1,"task_worker_num":0,"buffer_output_size":2097152,"max_connection":65535}
+    //worker_num 表示进程数，
+    //task_worker_num Task进程的数量；
+    //buffer_output_size 配置发送输出缓存区内存尺寸;单次Server->send最大允许发送字节的数据大小
+    //max_connection 服务器程序，最大允许的连接数，超过此数量后，新进入的连接将被拒绝。
 
     $serv->close($fd); // 注意：官方并不建议在这里关闭掉
 });
