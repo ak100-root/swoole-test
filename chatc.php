@@ -17,7 +17,7 @@
         v.addEventListener('play', function() {
             var i = window.setInterval(function() {
                 ctx.drawImage(v, 0, 0, 270, 135);
-                WC.send(c.toDataURL('image/jpeg',0,4));
+                WC.send(c.toDataURL('image/jpeg',0.8));
             }, 20);
 
         }, false);

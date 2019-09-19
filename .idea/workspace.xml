@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57e4506f-7892-463c-b537-49d73dee6670" name="Default" comment="" />
+    <list default="true" id="57e4506f-7892-463c-b537-49d73dee6670" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chatc.php" afterPath="$PROJECT_DIR$/chatc.php" />
+    </list>
     <ignored path="swoole-test.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -56,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chatc.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="chatc.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chatc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.321428">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5387524">
+              <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -76,10 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="live.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="live.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/live.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5689981">
+            <state vertical-scroll-proportion="-17.642857">
               <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
               <folding>
                 <element signature="e#6#85#0#PHP" expanded="true" />
@@ -110,9 +112,9 @@
         <option value="$PROJECT_DIR$/server.php" />
         <option value="$PROJECT_DIR$/.idea/chatc.php" />
         <option value="$PROJECT_DIR$/../../conf/httpd.conf" />
-        <option value="$PROJECT_DIR$/chatc.php" />
         <option value="$PROJECT_DIR$/chat.php" />
         <option value="$PROJECT_DIR$/live.php" />
+        <option value="$PROJECT_DIR$/chatc.php" />
       </list>
     </option>
   </component>
@@ -282,6 +284,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/live.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.642857">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding>
+            <element signature="e#6#85#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chat.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.785714">
@@ -292,19 +304,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chatc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.321428">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5387524">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/live.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5689981">
-          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-          <folding>
-            <element signature="e#6#85#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
