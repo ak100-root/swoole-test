@@ -23,9 +23,8 @@
         alert('链接成功');
     }
 
-    WC.onmessage=function(data){
-        alert(data);
-        img.src=data;
+    WC.onmessage=function(event){
+        img.src=event.data;
     }
 
     WC.onclose=function(event){
