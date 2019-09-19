@@ -1,5 +1,5 @@
 <?php
-$serv = new Swoole\Server('0.0.0.0', 9501);
+$serv = new Swoole\Server('121.199.4.90', 9501);
 $serv->on('connect', function ($serv, $fd){
     echo "Client:Connect".PHP_EOL;
 });
