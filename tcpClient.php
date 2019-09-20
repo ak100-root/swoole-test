@@ -1,6 +1,5 @@
 <?php
-$client = new Swoole\Client();
-$conn = $client->connect('121.199.4.90',9501);
+$client = new Swoole\Client('121.199.4.90',9501);
 if(!$conn){
     exit ('链接失败');
 }
