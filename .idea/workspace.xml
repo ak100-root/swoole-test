@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57e4506f-7892-463c-b537-49d73dee6670" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tcpClient.php" afterPath="$PROJECT_DIR$/tcpClient.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tcpServer.php" afterPath="$PROJECT_DIR$/tcpServer.php" />
     </list>
     <ignored path="swoole-test.iws" />
@@ -72,8 +71,8 @@
       <file leaf-file-name="tcpServer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tcpServer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3571428">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state vertical-scroll-proportion="-8.821428">
+              <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -349,8 +348,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tcpServer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3571428">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state vertical-scroll-proportion="-8.821428">
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
           <folding />
         </state>
       </provider>
