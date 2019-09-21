@@ -6,7 +6,7 @@ $swoole->on('connect',function($ser,$fd){
 });
 
 $swoole->on('receive',function($swoole,$fd,$reactor_id,$data){
-        echo 'Client number '.$fd .'send info is ['.$data.'] '.PHP_EOL;
+        echo 'Client number '.$fd .' send info is ['.$data.'] '.PHP_EOL;
         $swoole->send($fd,'Server has get your msg ['.$data.']');
 });
 
